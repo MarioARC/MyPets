@@ -15,6 +15,18 @@ class Axolotl extends PetParent
     return super.getName() + " sleeps whenever, eats whenever, then floats.";
   }
 
+  public String speak()
+  {
+    if(hasRegenerated)
+    {
+      return "gurgles";
+    }
+    else
+    {
+      return "bloop";
+    }
+  }
+
   // toString
   public String toString()
   {

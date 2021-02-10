@@ -12,6 +12,11 @@ class Dog extends PetParent
     this.breed = breed;
   }
 
+  public String speak()
+  {
+    return "bark";
+  }
+
   public String toString()
   {
     String output = super.toString();
