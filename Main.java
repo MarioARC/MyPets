@@ -12,6 +12,14 @@ class Main
 
     PetParent clifford = new Axolotl("Clifford", true, "purple", 10, 0.01, false);
 
+    Owner emiliano = new Owner("Emiliano");
+
+    System.out.println(emiliano.toString());
+
+    System.out.println(emiliano.feed(piper));
+    System.out.println(emiliano.feed(matthew));
+    System.out.println(emiliano.feed(vader));
+
     // blankPet.setName("Fluffy");
     // System.out.println("Bob is now called " + blankPet.getName());
 
@@ -22,12 +30,14 @@ class Main
     System.out.println(((Dog)vader).getLoyalty());
     */
 
+    /*
     PetParent[] myPets = {piper, vader, matthew, clifford};
 
     for(PetParent animals : myPets)
     {
       System.out.println(animals.getName() + " says " + animals.speak() + ".");
     }
+    */
 
     /*
     System.out.println(piper.dailyRoutine());
