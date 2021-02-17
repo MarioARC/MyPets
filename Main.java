@@ -12,6 +12,16 @@ class Main
 
     PetParent clifford = new Axolotl("Clifford", true, "purple", 10, 0.01, false);
 
+    PetParent blob;
+
+    blob = matthew; // this is assigning the alias NOT A COPY
+    // blob = piper; // reassigning the alias
+    matthew.setRegenerate(false);
+
+    System.out.println(blob.toString());
+    // System.out.println(blob.dailyRoutine());
+
+    /*
     Owner emiliano = new Owner("Emiliano");
 
     System.out.println(emiliano.toString());
@@ -19,6 +29,7 @@ class Main
     System.out.println(emiliano.feed(piper));
     System.out.println(emiliano.feed(matthew));
     System.out.println(emiliano.feed(vader));
+    */
 
     // blankPet.setName("Fluffy");
     // System.out.println("Bob is now called " + blankPet.getName());

@@ -27,6 +27,11 @@ public class Axolotl extends PetParent
     }
   }
 
+  public void setRegenerate(boolean hasRegenerated)
+  {
+    this.hasRegenerated = hasRegenerated;
+  }
+
   // toString
   public String toString()
   {
