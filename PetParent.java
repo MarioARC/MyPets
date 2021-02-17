@@ -1,4 +1,4 @@
-abstract class PetParent
+public abstract class PetParent
 {
   private String name;
   public boolean hasHair;

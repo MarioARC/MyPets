@@ -1,4 +1,4 @@
-class Axolotl extends PetParent
+public class Axolotl extends PetParent
 {
   // instance variable
   private boolean hasRegenerated;
